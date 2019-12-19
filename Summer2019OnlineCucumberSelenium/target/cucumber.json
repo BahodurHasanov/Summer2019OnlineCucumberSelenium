@@ -1,0 +1,444 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "open login page and login as store manager",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 972599300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2441761400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in as store manager",
+            "match": {
+              "location": "LoginStepDefinitions.user_logs_in_as_store_manager()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-19T17:59:18.307Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10380894500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify dashboard page",
+        "description": "",
+        "id": "smoke-test;verify-dashboard-page",
+        "after": [
+          {
+            "result": {
+              "duration": 759836100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2110890800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies that \"Dashboard\" page subtitle is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinitions.user_verifies_that_page_subtitle_is_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke_test"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "open login page and login as store manager",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1122197400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2281957300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in as store manager",
+            "match": {
+              "location": "LoginStepDefinitions.user_logs_in_as_store_manager()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-19T17:59:35.024Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9222633800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify Manage Dashboards page",
+        "description": "",
+        "id": "smoke-test;verify-manage-dashboards-page",
+        "after": [
+          {
+            "result": {
+              "duration": 731326800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 756350500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user navigates to \"Dashboards\" then to \"Manage Dashboards\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboards\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Manage Dashboards\"",
+                  "offset": 39
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_then_to(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2128503000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user verifies that \"All Manage Dashboards\" page subtitle is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Manage Dashboards\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinitions.user_verifies_that_page_subtitle_is_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke_test"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "open login page and login as store manager",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1430778300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2006059200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in as store manager",
+            "match": {
+              "location": "LoginStepDefinitions.user_logs_in_as_store_manager()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-19T17:59:51.272Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9281007300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify Vehicle page",
+        "description": "",
+        "id": "smoke-test;verify-vehicle-page",
+        "after": [
+          {
+            "result": {
+              "duration": 735094800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3130297400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user navigates to \"Fleet\" then to \"Vehicles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Fleet\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Vehicles\"",
+                  "offset": 34
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_then_to(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4206686100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user verifies that \"All Cars\" page subtitle is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Cars\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinitions.user_verifies_that_page_subtitle_is_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke_test"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "open login page and login as store manager",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1066305500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2362472700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in as store manager",
+            "match": {
+              "location": "LoginStepDefinitions.user_logs_in_as_store_manager()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-19T18:00:12.066Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9226422600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify Accounts page",
+        "description": "",
+        "id": "smoke-test;verify-accounts-page",
+        "after": [
+          {
+            "result": {
+              "duration": 737014100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2242587600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user navigates to \"Customers\" then to \"Accounts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customers\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"Accounts\"",
+                  "offset": 38
+                }
+              ],
+              "location": "TopMenuStepDefinitions.user_navigates_to_then_to(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3663268200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user verifies that \"All Accounts\" page subtitle is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Accounts\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinitions.user_verifies_that_page_subtitle_is_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke_test"
+          }
+        ]
+      }
+    ],
+    "name": "Smoke test",
+    "description": "",
+    "id": "smoke-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SmokeTest.feature",
+    "tags": [
+      {
+        "name": "@smoke_test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
